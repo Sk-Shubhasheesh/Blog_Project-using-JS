@@ -1,0 +1,24 @@
+/* Reset Code & Common Start here */
+*{
+   margin: 0;
+   padding: 0; 
+   box-sizing: border-box;
+   list-style-type: none;
+   text-decoration: none;
+   outline: none;
+   font-weight: 400;
+}
+html{
+    background-color: #fafafa;
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background-color: #fff;
+    width: 100rem;
+    max-width: 100%;
+    margin: auto;
+    /* border: 2px solid black; */
+}
+/* Reset Code & Common end here */
