@@ -62,3 +62,41 @@ nav ul li:hover{
     color: #fff;
     cursor: pointer;
 }
+
+/* banner section start here */
+.banner{
+    padding: 5rem 1rem;
+    /* after setting imahge width height then we used display property */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 95vh;
+
+
+}
+.banner_img{
+    width: 55rem;
+    height: 55rem;
+    border: 0.3rem solid;
+}
+.banner article{
+    flex-basis: 50%;
+    margin: 1rem;
+}
+.banner aside{
+    flex-basis: 50%;
+    
+}
+.banner_heading{
+    /* make inline block beacuse when we apply background color on it , it not take full width */
+   display: inline-block; 
+   padding: 1rem;
+   background-color: black; 
+   color: #fff;
+   margin-bottom: 1.5rem;
+
+}
+.banner_description{
+    font-size: 1.8rem;
+    text-align: justify;
+}
