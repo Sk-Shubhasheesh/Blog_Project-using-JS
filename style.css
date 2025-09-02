@@ -170,7 +170,7 @@ nav ul li:hover {
     font-size: 6rem;
     /* text-align: center; */
     font-family: "Italiano", cursive;
-   
+
 
 }
 
@@ -216,4 +216,72 @@ nav ul li:hover {
 .archieves-container-list {
     margin: 2rem;
 
+}
+
+
+/* Blog Post Section Start here */
+.aside_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blog-post-btn{
+    background-color: #e69f08;
+    border: none;
+    border-radius: 0.6rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem #222;
+    cursor: pointer;
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+
+.blog-post{
+    width: 70%;
+    display: flex;
+    margin: 1rem 0;
+    box-shadow: 0.1rem 0.1rem 0.1rem #222;
+    transition: all 0.3s;
+}
+
+.blog-post:hover{
+    transform: scale(1.1);
+}
+
+.blog-post-aside{
+    flex: 1;
+}
+.blog-post-content{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-left: 2rem;
+    gap: 1rem;
+}
+
+.blog-post-heading{
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+.blog-post-subheading{
+    font-size: 2rem;
+   
+}
+.blog-post-description{
+    font-size: 1.6rem;
+    text-align: justify;
+
+}
+.blog-post-btn{
+    width: 30%;
+}
+
+.blog-posts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
