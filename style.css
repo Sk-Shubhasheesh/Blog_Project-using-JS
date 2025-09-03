@@ -170,6 +170,7 @@ nav ul li:hover {
     font-size: 6rem;
     /* text-align: center; */
     font-family: "Italiano", cursive;
+    text-align: center;
 
 
 }
@@ -284,4 +285,46 @@ nav ul li:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+/* Contact section start here */
+#contact-section{
+    background-color: #4c4c4c;
+    min-height: 95vh;
+}
+.contact-heading{
+    color: #fff;
+}
+
+.form-control{
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-control label{
+    font-size: 1.6rem;
+    flex: 0.3;
+}
+.form-control > input, textarea{
+    flex: 0.7;
+    width: 40rem;
+    padding: 2rem 1rem;
+    border: none;
+    border-radius: 0.6rem;
+}
+textarea{
+    resize: none;
+    height: 12vh;
+}
+
+.form-btn-field{
+    display: flex;
+    justify-content: flex-end;
+}
+form{
+    padding: 1rem;
+    color: #fff;
+    margin: 1rem;
+    
 }
